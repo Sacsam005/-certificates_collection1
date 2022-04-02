@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="./img/certificate.png" />
+    <link rel="apple-touch-icon" href="./img/certificate.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Certificates Collection</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="input-container">
+            <input type="text" placeholder='Search' id='input'>
+        </div>
+
+        <div class="gallery_title">
+            <h1>Certificates Collections</h1>
+        </div>
+
+        <article class='gallery'>
+            <a href="./img/Learning Azure DevOps.jpg" data-caption='Learning Azure DevOps.' class='item' title='Azure DevOps'>
+                <img src="./img/Learning Azure DevOps.jpg" alt="first image">
+            </a>
+            <a href="./img/appdesign.jpg" data-caption='The complete app design course - UI, UX and design thinking.' class='item' title='Appdesign'>
+                <img src="./img/appdesign.jpg" alt="second image">
+            </a>
+            <a href="./img/Adobe XD.jpg" data-caption='User Experience design essentials with Adobe XD.' title='Adobe XD' class='item'>
+                <img src="./img/Adobe XD.jpg" alt="third image">
+            </a>
+            <a href="./img/UX research.jpg" data-caption='UX research training.' title='UX research' class='item'>
+                <img src="./img/UX research.jpg" alt="fourth image">
+            </a>
+            <a href="./img/UX usability.jpg" data-caption="Deep dive into UX usability testing." title='UX usability' class='item'>
+                <img src="./img/UX usability.jpg" alt="fifth image">
+            </a>
+            <a href="./img/Agile Testing.jpg" data-caption="Agile testing." title='Agile Testing' class='item'>
+                <img src="./img/Agile Testing.jpg" alt="sixth image">
+            </a>
+            <a href="./img/SQL for Testers.jpg" data-caption='SQL for Testers' title='SQL' class='item'>
+                <img src="./img/SQL for Testers.jpg" alt="seventh image">
+            </a>
+            <a href="./img/SQL Essential Training.jpg" data-caption='SQL Essential Training.' title='SQL' class='item'>
+                <img src="./img/SQL Essential Training.jpg" alt="eight image">
+            </a>
+            <a href="./img/sqlbasics.jpg" data-caption="SQL basic syntaxes, clauses and queries." title='SQL' class='item'>
+                <img src="./img/sqlbasics.jpg" alt="nineth image">
+            </a>
+            <a href="./img/Learning ServiceNow.jpg" data-caption='Learning ServiceNow.' class='item' title='ServiceNow'>
+                <img src="./img/Learning ServiceNow.jpg" alt="tenth image">
+            </a>
+            <a href="./img/Sharepoint beyond the basics.jpg" data-caption='Sharepoint beyond the basics' class='item' title='Sharepoint'>
+                <img src="./img/Sharepoint beyond the basics.jpg" alt="eleventh image">
+            </a>
+            <a href="./img/SharePoint Online Essential Training.jpg" data-caption='SharePoint Online Essential Training.' class='item' title='Sharepoint'>
+                <img src="./img/SharePoint Online Essential Training.jpg" alt="twelveth image">
+            </a>
+            <a href="./img/SharePoint Quick Tips.jpg" data-caption='SharePoint Quick Tips.' class='item' title='Sharepoint'>
+                <img src="./img/SharePoint Quick Tips.jpg" alt="thirteenth image">
+            </a>
+        </article>
+    </main>
+    <script>
+        window.addEventListener('load', function () {
+            baguetteBox.run('.gallery');
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.js" async></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
